@@ -13,7 +13,7 @@ Completion date: August 19, 2022
 <a name="overview"></a>
 ## Overview
 
-Golf. From PGA to Putt Putt, it seems most people have had some exposure to the sport. Growing up in Middle Tennessee, I've seen golf courses everywhere. I worked in Williamson County for a few years. That being said, it feels like I can't drive into Williamson County without passing at least one course. I wanted to take my real life observations and put my skills to use to prove (or disprove) my hypothesis that there are more golf courses in higher income areas.
+Golf. From Putt Putt to PGA, it seems most people have had some exposure to the sport. Growing up in Middle Tennessee, I've seen golf courses everywhere. I worked in Williamson County for a few years. That being said, it feels like I can't drive into Williamson County without passing at least one course. I wanted to take my real life observations and put my skills to use to prove (or disprove) my hypothesis that there are more golf courses in higher income areas.
   
 <a name="dataquestion"></a>
 ## Data Question
@@ -47,14 +47,16 @@ I joined the clean dataframes to give a cetralized look at all the metrics I wan
 
 Bringing the data into Tableau, I had to manipulate the data further. Using the different tables, I had to connect them on county name in order to display the data properly.
 
-  #### Visualizing the Data
+  #### Telling the Story
 
-
+Using a combination of heat maps, scatter plots, and overall maps in Tableau, I told a story that walks through the data leading to the conclusion of the analysis in Powerpoint.
 
 <a name="technologies"></a>
 ## Technologies
 
 Python: Pandas, GeoPandas, RegEx, Matplotlib.pyplot, Folium
+Tableau: Visualizations of data findings
+Excel: Minor post-analysis data manipulation
 
 ## Data Sources
   
@@ -76,4 +78,7 @@ TN Counties Area by Square Mile: http://www.usa.com/rank/tennessee-state--land-a
 
 <a name="conclusion"></a>
 ## Conclusion
-  
+The immediate observation upon analyzing the data leads to the understanding of golf course locations being driven by total population. With the data that was analyzed, We can see that there is not a strong correlation between median income and the number of golf courses in a county. The same can be said about the county's land area in square miles. One shocking observation from the analysis is that the percent of a population over the age of 65 has little correlation with the amount of golf courses.
+
+## What Now?
+From here, a look at the same metrics on a larger scale could provide different results. Moving forward, I plan on looking at the country as a whole. I also plan to do the same analysis with Florida, as it as seen as the retirement state and may show a different outcome in terms of the age metric. Another annalysis would include looking at individual cities in populated counties. Based on my knowledge of the area, I feel that some of the county data could be skewed by larger cities in certain counties. A smaller scale analysis could balance this. 
