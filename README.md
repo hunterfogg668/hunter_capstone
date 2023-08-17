@@ -49,7 +49,9 @@ Bringing the data into Tableau, I had to manipulate the data further. Using the 
 
   #### Telling the Story
 
-Using a combination of heat maps, scatter plots, and overall maps in Tableau, I told a story that walks through the data leading to the conclusion of the analysis in Powerpoint.
+Using a combination of heat maps, scatter plots, and geographical maps in Tableau, I told a story that walks through the data leading to the conclusion of the analysis in Powerpoint.
+
+View the story at this link: https://public.tableau.com/views/GolfCourseLocationAnalysisbyHunterFogg/CapstoneStory?:language=en-US&:display_count=n&:origin=viz_share_link
 
 <a name="technologies"></a>
 ## Technologies
